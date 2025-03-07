@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* reset */
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, table, textarea {
+  font-size: 12px;
+  line-height: 16px;
+  color: #202020;
+  font-family: "Pretendard Variable", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  backface-visibility: hidden;
+  background-color: transparent;
+  border: 0;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+button, input {
+  border-radius: 0;
+  border: 0;
+}
+
+button {
+  background-color: transparent;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+address, em {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+iframe {
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+mark {
+  background-color: transparent;
+}
+
+i {
+  font-style: normal;
+}
+
+.inner {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.phone {
+  position: absolute;
+  width: 320px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #02000E;
+  font-size: 16px;
+}
+
+/* 반응형 레이아웃 */
+/* 모바일 - 가로 해상도가 768px 이하*/
+.inner {
+  width: 87%;
+  margin: 0 auto;
+}
+
+/* 태블릿 - 가로 해상도가 768px 이상*/
+@media (min-width: 768px) {
+  body {
+    font-size: 24px;
+  }
+  .inner {
+    width: 93%;
+  }
+}
+/* pc : 가로 해상도가 1200px 이상*/
+@media (min-width: 1200px) {
+  body {
+    font-size: 23px;
+  }
+  .inner {
+    width: 1200px;
+  }
+}
+/* 마이페이지 */
+.btn-profile {
+  width: 32px;
+  height: 32px;
+}/*# sourceMappingURL=style.css.map */
